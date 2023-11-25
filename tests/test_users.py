@@ -3,7 +3,7 @@ from pages.users_page import UsersPage
 
 
 
-'''Проверяем наличие таблицы на страницу Пользователи'''
+'''Проверяем наличие таблицы на странице Пользователи'''
 def test_check_table(driver):
     users_page = UsersPage(driver)
     users_page.log_in()
